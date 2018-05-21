@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.tsc.booking.Servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingServlet</servlet-name>
+    <servlet-class>com.tsc.booking.Servlet.BookingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>com.tsc.booking.Servlet.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+   <servlet-name>SearchteaServlet</servlet-name>
+    <servlet-class>com.tsc.booking.Servlet.SearchteaServlet</servlet-class>
+  </servlet>
+  <servlet>
+   <servlet-name>TeaIntServlet</servlet-name>
+    <servlet-class>com.tsc.booking.Servlet.TeaIntServlet</servlet-class>
+  </servlet>
+  <servlet>
+   <servlet-name>SearchbooServlet</servlet-name>
+    <servlet-class>com.tsc.booking.servlet.SearchbooServlet</servlet-class>
+  </servlet>
+  <servlet>
+   <servlet-name>SendMessageServlet</servlet-name>
+    <servlet-class>com.tsc.booking.servlet.SendMessageServlet</servlet-class>
+  </servlet>
+  <!--  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+ </servlet-mapping> -->
+</web-app>
